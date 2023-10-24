@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;;
+}
+
+body {
+    background-color: azure;
+}
+
+.myself {
+    background-color: beige;
+}
+
+.hobby {
+    background-color: rgba(0, 238, 255, 0.78);
+    font-size: medium;
+    font-style: oblique;
+}
+
+.technologies {
+    border-top: 3px blue solid;
+
+}
+
+.title {
+    letter-spacing: 5px;
+    color: brown;
+}
+
+.article {
+    border: 3px lawngreen dotted;
+    width: 600px;
+}
+
+.communication {
+    background-color: darkgray;
+    width: fit-content;
+}
+
+.communication textarea, .communication input {
+    background-color: grey;
+    border: 1px darkslategray solid;
+}
