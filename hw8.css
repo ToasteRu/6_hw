@@ -14,9 +14,9 @@ body {
 
 .section {
     padding: 15px 55px;
-    width: 750px;
+    width: 630px;
     margin: auto;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 .myself {
@@ -33,7 +33,7 @@ body {
 }
 
 .technologies, .me, .hobby {
-    margin-bottom: 18px;
+    margin-bottom: 25px;
 }
 
 .technologiestable {
