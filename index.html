@@ -12,10 +12,11 @@
     <header>
         <h1>Волошко Никита</h1>
     </header>
-    <section>
-        <h2 class="title">Немного информации обо мне</h2>
-        <img width="215" src="MyPhoto.jpg" alt="Извините, мы фотографируем этого человека">
-        <p class="myself">Всем привет! Мне 26 лет, родился и вырос в г. Красноярске. Учился в школе № 10, затем поступил в СФУ на
+    <section class="section myself">
+        <div class="me">
+            <h2 class="title">Немного информации обо мне</h2>
+            <img width="215" src="MyPhoto.jpg" alt="Извините, мы фотографируем этого человека">
+            <p>Всем привет! Мне 26 лет, родился и вырос в г. Красноярске. Учился в школе № 10, затем поступил в СФУ на
             специальность "Теплоэнергетика и теплотехника", где успешно отучился 4 года и получил степень Бакалавра.
             Далее поступил в магистратуру на схожее направление "Теплоэнергетика и гидрогазодинамика", результат -
             степень Магистра. Параллельно с получением образования магистратуры работал в филиале ОАО "РЖД" в
@@ -23,54 +24,59 @@
             сменил сферу деятельности (потихоньку перебирался в IT) - стал раработчиком и интегратором конфигураций,
             техническим администратором аккаунтов CRM-системы Planfix. На протяжении двух лет работы в этой сфере
             хотелось большего развития. И вот я здесь - на курсах Алексея!</p>
-        <h3 class="title"> Мои увлечения</h3>
-        <ul class="hobby">
-            <li>Диджеинг;</li>
-            <li>Прослушивание EDM музыки;</li>
-            <li>Посещение EDM-фестивалей;</li>
-            <li>Прогулки на свежем воздухе;</li>
-            <li>Путешествия;</li>
-            <li>Настольные игры;</li>
-            <li>Видеоигры;</li>
-            <li>Занятие спортом.</li>
-        </ul>
-        <a href="https://vk.com/nikeeeed" target="_blank" rel="noopener noreferrer">Написать мне в VK</a>
-        <h3 class="title">Технологии</h3>
-        <table border="2" width="300" class="technologies">
-            <thead>
-                <tr>
-                    <th>Область</th>
-                    <th>Технологии</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Backend</td>
-                    <td>REST API; Python; JavaScript</td>
-                </tr>
-                <tr>
-                    <td>Frontend</td>
-                    <td>Drag and drop</td>
-                </tr>
-            </tbody>
-        </table>
+        </div>
+        <div class="hobby">
+            <h3 class="title"> Мои увлечения</h3>
+            <ul class="hobby_ul">
+                <li>Диджеинг;</li>
+                <li>Прослушивание EDM музыки;</li>
+                <li>Посещение EDM-фестивалей;</li>
+                <li>Прогулки на свежем воздухе;</li>
+                <li>Путешествия;</li>
+                <li>Настольные игры;</li>
+                <li>Видеоигры;</li>
+                <li>Занятие спортом.</li>
+            </ul>
+            <a href="https://vk.com/nikeeeed" target="_blank" rel="noopener noreferrer">Написать мне в VK</a>
+        </div>
+        <div class="technologies">
+            <h3 class="title">Технологии</h3>
+            <table border="2" width="300" class="technologiestable">
+                <thead>
+                    <tr>
+                        <th>Область</th>
+                        <th>Технологии</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Backend</td>
+                        <td>REST API; Python; JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>Drag and drop</td>
+                    </tr>
+              </tbody>
+            </table>
+        </div>
     </section>
-    <section class="article">
+    <section class="article section">
         <h2 class="title">Статьи</h2>
-        <article>
+        <article class="me">
             <h3>Почему я пошел на курс к Алексею</h3>
             <p>Здесь рассказываю почему.</p>
             <a href="articlefirsthw.html">Читать</a>
         </article>
-        <article>
+        <article class="me">
             <h3>Чем я занимаюсь сейчас</h3>
             <p>Здесь рассказываю о своей текущей работе.</p>
             <a href="articlesecondhw.html">Читать</a>
         </article>
     </section>
-    <section>
+    <section class="section communication">
         <h2 class="title">Обратная связь</h2>
-        <form class="communication">
+        <form>
             <div>
                 <label for="name">Имя</label>
                 <input type="text" id="name" placeholder="Мое имя">
