@@ -24,19 +24,16 @@ body {
 }
 
 .hobby {
+    margin-left: 15px;
     font-size: medium;
     font-style: oblique;
 }
 
-.hobby_ul {
-    margin-left: 15px;
-}
-
-.technologies, .me, .hobby {
+.block {
     margin-bottom: 25px;
 }
 
-.technologiestable {
+.table {
     border-top: 3px blue solid;
 }
 
