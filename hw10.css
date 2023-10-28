@@ -65,7 +65,7 @@ body {
     padding-bottom: 20px;
 }
 
-.flexdirection{
+.flex-direction-column{
     flex-direction: column;
 }
 
@@ -78,4 +78,37 @@ body {
     display: block;
     width: fit-content;
     margin: auto;
+}
+
+button{
+    margin: 5px;
+    padding: 10px;
+    background-color: burlywood;
+    color: rgb(22, 13, 82);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(217, 168, 103);
+}
+
+a{
+    margin-left: 20px;
+    color: brown;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: italic;
+}
+
+a:hover{
+    color: fuchsia;
+}
+a:active{
+    color: blueviolet;
+}
+
+a:visited{
+    color: darkgreen;
 }
