@@ -40,6 +40,7 @@ body {
 .title {
     letter-spacing: 5px;
     color: brown;
+    margin-bottom: 3px;
 }
 
 .article {
@@ -55,4 +56,26 @@ body {
 .communication textarea, .communication input {
     background-color: grey;
     border: 1px darkslategray solid;
+    flex: 4;
+    outline: none;
+}
+
+.flexcontainer{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.flexdirection{
+    flex-direction: column;
+}
+
+.communication label{
+    flex: 1;
+    align-self: center;
+}
+
+.communication button{
+    display: block;
+    width: fit-content;
+    margin: auto;
 }
