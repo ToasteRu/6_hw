@@ -12,6 +12,43 @@ body {
     margin-bottom: 15px;
 }
 
+header{
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.navigation a{
+    color: wheat;
+}
+
+.navigation ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    background-color: cornflowerblue;
+    height: 30px;
+    align-items: center;
+}
+
+.navigation li{
+    font-size: larger;
+    font-weight: 700;
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation li:hover{
+    color: chartreuse;
+}
+
+.navigation li:first-child{
+    margin-left: 0;
+}
+
 .section {
     padding: 15px 55px;
     width: 630px;
@@ -35,6 +72,14 @@ body {
 
 .table {
     border-top: 3px blue solid;
+    margin: auto;
+    width: 400px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.table tr:nth-child(2){
+    background-color: rgb(204, 152, 115);
 }
 
 .title {
@@ -47,6 +92,10 @@ body {
     border: 3px khaki dotted;
     background-color: deepskyblue;
     border-radius: 11px;
+}
+
+.article li{
+    margin: 0 20px;
 }
 
 .communication {
