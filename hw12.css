@@ -15,7 +15,11 @@ body {
 header{
     color: white;
     background-color: cornflowerblue;
-}
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+ }
 
 .navigation a{
     color: wheat;
@@ -47,6 +51,10 @@ header{
 
 .navigation li:first-child{
     margin-left: 0;
+}
+
+.data {
+    margin-top: 100px;
 }
 
 .section {
@@ -160,4 +168,35 @@ a:active{
 
 a:visited{
     color: darkgreen;
+}
+
+@media (max-width: 500px) {
+
+    header h1{
+        display: none;
+    }
+
+    .navigation li{
+        font-size: medium;
+        font-weight: 200;
+        margin: 0 5px;
+        padding: 5px;
+    }
+
+    .data {
+        margin-top: 40px;
+    }
+
+    .section {
+        padding: 5px 10px;
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    img {
+        width: 30%;
+    }
+    .table {
+        width: 200px;
+    }
 }
