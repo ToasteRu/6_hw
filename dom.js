@@ -1,4 +1,2 @@
-let articles = document.getElementById("allarticles");
-let contacts = document.getElementById("contacts");
-console.log(articles);
-console.log(contacts);
+document.getElementById("allarticles").textContent = "Все статьи (8)";
+console.log(document.getElementById("allarticles").textContent);
