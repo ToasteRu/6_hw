@@ -1,2 +1,3 @@
-document.getElementById("allarticles").textContent = "Все статьи (8)";
-console.log(document.getElementById("allarticles").textContent);
+let allArticlesText = document.getElementById("allarticles").textContent;
+allArticlesText = allArticlesText+" (8)";
+console.log(allArticlesText);
