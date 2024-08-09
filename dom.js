@@ -8,8 +8,8 @@ function scrollToElem (elem){
     elem.scrollIntoView({behavior:"smooth"});
 };
 
-goToArticlesBtn.addEventListener ("click", scrollToElem (sectionArticles));
-goToCommunicationBtn.addEventListener ("click", scrollToElem (sectionCommunication));
+goToArticlesBtn.addEventListener("click", () => scrollToElem(sectionArticles));
+goToCommunicationBtn.addEventListener ("click", () => scrollToElem (sectionCommunication));
 
 console.log(goToArticlesBtn);
 console.log(goToCommunicationBtn);
